@@ -23,3 +23,8 @@ def recordar():
     ano_recor = input('año de recordatorio:')
     print dia_recor + '/'+mes_recor+'/'+ano_recor
 recordar()
+
+def alarma():
+    if recordar == True:
+        print 'alarma activada'
+        
